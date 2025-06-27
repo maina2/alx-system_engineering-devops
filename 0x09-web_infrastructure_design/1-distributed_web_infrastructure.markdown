@@ -1,7 +1,7 @@
 # 1-distributed_web_infrastructure
 
 ## Diagram
-![Distributed Web Stack](https://flic.kr/p/2rdeFNx)
+(https://flic.kr/p/2rdeFNx)
 
 ## Infrastructure Specifics
 

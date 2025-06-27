@@ -1,7 +1,7 @@
 # 2-secured_and_monitored_web_infrastructure
 
 ## Diagram
-![Secured and Monitored Web Stack](https://flic.kr/p/2rdeLCx)
+(https://flic.kr/p/2rdeLCx)
 
 ## Infrastructure Specifics
 
