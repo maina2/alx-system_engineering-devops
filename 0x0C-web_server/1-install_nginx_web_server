@@ -1,7 +1,15 @@
 #!/usr/bin/env bash
-# Install nginx web server
-sudo apt-get -y update
-sudo apt-get install -y nginx
-sudo ufw allow 'Nginx HTTP'
-echo "Hello World!" > "/var/www/html/index.html"
-sudo service nginx restart
+# This script installs Nginx and configures it to return 'Hello World!' on the root URL
+
+# Exit immediately if a command exits with a non-zero status
+set -e
+
+# Install Nginx
+apt-get update -y
+apt-get install nginx -y
+
+# Replace default nginx index.html with Hello World!
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+
+# Restart nginx without using systemctl
+service nginx restart
